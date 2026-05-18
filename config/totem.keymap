@@ -319,7 +319,7 @@
             layers = <1>;
         };
 
-    //nump macroses------------------------------------------------
+        //nump macroses------------------------------------------------
 
         numpL_div {
             bindings = <&kp KP_DIVIDE>;
@@ -356,39 +356,40 @@
             key-positions = <23 12>;
             layers = <3>;
         };
+
         numpR_div {
             bindings = <&kp KP_DIVIDE>;
-            key-positions = <1 11>;
+            key-positions = <8 18>;
             layers = <3>;
         };
 
         numpR_mult {
             bindings = <&kp KP_MULTIPLY>;
-            key-positions = <2 12>;
+            key-positions = <7 17>;
             layers = <3>;
         };
 
         numpR_minus {
             bindings = <&kp KP_SUBTRACT>;
-            key-positions = <3 13>;
+            key-positions = <6 16>;
             layers = <3>;
         };
 
         numpR_plus {
             bindings = <&kp KP_PLUS>;
-            key-positions = <13 24>;
+            key-positions = <16 27>;
             layers = <3>;
         };
 
         numpR_nlock {
             bindings = <&kp KP_NUMLOCK>;
-            key-positions = <22 11>;
+            key-positions = <29 18>;
             layers = <3>;
         };
 
         numpR_ent {
             bindings = <&kp KP_ENTER>;
-            key-positions = <23 12>;
+            key-positions = <28 17>;
             layers = <3>;
         };
     };
