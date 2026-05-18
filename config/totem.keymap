@@ -22,7 +22,7 @@
         layers_selector_L {
             bindings = <&sl 6>;
             key-positions = <1 2 3>;
-            layers = <0 1 2 4 3 5>;
+            layers = <0 1 2 3 4 5>;
         };
 
         layers_selector_R {
