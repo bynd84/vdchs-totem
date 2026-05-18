@@ -30,6 +30,82 @@
             key-positions = <6 7 8>;
             layers = <0 1 2 3 4 5>;
         };
+//qwerty macroses------------------------------------------------
+        shift1 {
+            bindings = <&kp LS(NUMBER_1)>;
+            key-positions = <27 16>;
+            layers = <0>;
+        };
+
+        shift2 {
+            bindings = <&kp LS(NUMBER_2)>;
+            key-positions = <1 11>;
+            layers = <0>;
+        };
+
+        shift3 {
+            bindings = <&kp LS(NUMBER_3)>;
+            key-positions = <2 12>;
+            layers = <0>;
+        };
+
+        shift4 {
+            bindings = <&kp LS(NUMBER_4)>;
+            key-positions = <3 13>;
+            layers = <0>;
+        };
+
+        shift5 {
+            bindings = <&kp LS(N5)>;
+            key-positions = <4 14>;
+            layers = <0>;
+        };
+
+        shift6 {
+            bindings = <&kp LS(NUMBER_6)>;
+            key-positions = <5 15>;
+            layers = <0>;
+        };
+
+        shift7 {
+            bindings = <&kp LS(N7)>;
+            key-positions = <6 16>;
+            layers = <0>;
+        };
+
+        shift8 {
+            bindings = <&kp LS(N8)>;
+            key-positions = <7 17>;
+            layers = <0>;
+        };
+
+        shift9 {
+            bindings = <&kp LS(N9)>;
+            key-positions = <22 11>;
+            layers = <0>;
+        };
+
+        shift0 {
+            bindings = <&kp LS(N0)>;
+            key-positions = <12 23>;
+            layers = <0>;
+        };
+        qwerty_quote {
+            bindings = <&kp LS(N0)>;
+            key-positions = <12 23>;
+            layers = <0>;
+        };
+        qwerty_br_L {
+            bindings = <&kp LS(N0)>;
+            key-positions = <12 23>;
+            layers = <0>;
+        };
+        qwerty_br_R {
+            bindings = <&kp LS(N0)>;
+            key-positions = <12 23>;
+            layers = <0>;
+        };
+//-----------------------------------
     };
 
     behaviors {
