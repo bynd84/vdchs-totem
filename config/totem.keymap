@@ -23,16 +23,14 @@
             bindings = <&sl 6>;
             key-positions = <1 2 3>;
             //layers = <0 1 2 3 4 5>;
-            timeout-ms = <100>;
         };
 
         layers_selector_R {
             bindings = <&sl 6>;
             key-positions = <6 7 8>;
             //layers = <0 1 2 3 4 5>;
-            timeout-ms = <100>;
         };
-/*
+
         //qwerty macroses------------------------------------------------
 
         shift1 {
@@ -161,49 +159,42 @@
             bindings = <&kp Z>;
             key-positions = <22 11>;
             layers = <1>;
-            timeout-ms = <15>;
         };
 
         wsad_x {
             bindings = <&kp X>;
             key-positions = <23 12>;
             layers = <1>;
-            timeout-ms = <15>;
         };
 
         wsad_c {
             bindings = <&kp C>;
             key-positions = <24 13>;
             layers = <1>;
-            timeout-ms = <15>;
         };
 
         wsad_v {
             bindings = <&kp V>;
             key-positions = <14 25>;
             layers = <1>;
-            timeout-ms = <15>;
         };
 
         wsad_t {
             bindings = <&kp T>;
             key-positions = <22 23>;
             layers = <1>;
-            timeout-ms = <50>;
         };
 
         wsad_g {
             bindings = <&kp G>;
             key-positions = <23 24>;
             layers = <1>;
-            timeout-ms = <50>;
         };
 
         wsad_b {
             bindings = <&kp B>;
             key-positions = <24 25>;
             layers = <1>;
-            timeout-ms = <15>;
         };
 
         wsad_min {
@@ -222,9 +213,8 @@
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
             layers = <1>;
-            timeout-ms = <50>;
         };
-
+/*
         wsad_y {
             bindings = <&kp Y>;
             key-positions = <4 33>;
