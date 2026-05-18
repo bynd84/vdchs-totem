@@ -342,7 +342,7 @@
             key-positions = <23 12>;
             layers = <3>;
         };
-*/
+
         numpR_div {
             bindings = <&kp KP_DIVIDE>;
             key-positions = <8 18>;
@@ -394,7 +394,7 @@
             layers = <0>;
             timeout-ms = <45>;
         };
-
+*/
     };
 
     behaviors {
