@@ -2,6 +2,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &mmv {
     time-to-max-speed-ms = <0>;
@@ -110,10 +111,10 @@
 
         Numpad {
             bindings = <
-                 &kp RGUI         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_N0     &kp KP_N0  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RGUI 
-                 &kp SCROLLLOCK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT     &kp KP_DOT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6 &kp SCROLLLOCK
-&kp PRINTSCREEN  &kp PAUSE_BREAK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PAUSE_BREAK      &kp PRINTSCREEN 
-                                                   &none            &none            &none         &none  &none            &none
+                 &kp RGUI         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_N0     &kp KP_N0   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RGUI
+                 &kp SCROLLLOCK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT    &kp KP_DOT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SCROLLLOCK
+&kp PRINTSCREEN  &kp PAUSE_BREAK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PAUSE_BREAK  &kp PRINTSCREEN
+                                                   &none            &none            &none         &none       &none            &none
             >;
         };
 
@@ -128,10 +129,10 @@
 
         Mouse {
             bindings = <
-        &trans     &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &trans               &trans  &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &trans
-        &mkp LCLK  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &msc SCRL_UP         &trans  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHTs  &trans
-&trans  &mkp RCLK  &mkp RCLK           &mkp MCLK           &mkp LCLK          &msc SCRL_DOWN       &trans  &mkp RCLK           &mkp MCLK           &mkp LCLK   &trans  &trans
-                                       &none               &mmv MOVE_DOWN     &mmv MOVE_Y(1400)    &mmv MOVE_Y(1400)  &mmv MOVE_DOWN  &trans
+       &none  &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &none                &none              &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &none
+       &none  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &msc SCRL_UP         &none              &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHTs   &none
+&none  &none  &mkp RCLK           &mkp MCLK           &mkp LCLK          &msc SCRL_DOWN       &none              &mkp RCLK           &mkp MCLK           &mkp LCLK          &none  &none
+                                  &none               &mmv MOVE_DOWN     &mmv MOVE_Y(1400)    &mmv MOVE_Y(1400)  &mmv MOVE_DOWN      &none
             >;
         };
 
