@@ -1,7 +1,6 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 80  // default: 600
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 &mmv {
@@ -16,7 +15,14 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        layers_selector {
+            bindings = <&none>;
+            key-positions = <1 2 3 6 7 8>;
+        };
+    };
 
     behaviors {
         wasd_nums: wasd_nums {
@@ -65,18 +71,24 @@
         };
     };
 
-    macros {
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        layers {
             bindings = <
-            &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-            &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-&bt BT_CLR  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &bt BT_CLR
-                            &kp N1  &kp N2  &kp N3    &kp N1  &kp N2  &kp N3
+           &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
+           &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
+&kp MINUS  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp EQUAL
+                           &kp N1  &kp N2  &kp N3    &kp N1  &kp N2  &kp N3
+            >;
+        };
+
+        qwerty {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
