@@ -21,6 +21,8 @@ combos {
         timeout-ms = <60>;
         key-press-match-history-window = <60>;
         global-quick-tap;
+        combo-ignore-modifiers;
+
 
         layers_selector_L {
             bindings = <&sl 6>;
@@ -222,31 +224,31 @@ combos {
         wsad_y {
             bindings = <&kp Y>;
             key-positions = <4 33>;
-            layers = <1 2>;
+            layers = <1>;
         };
 
         wsad_u {
             bindings = <&kp U>;
             key-positions = <33 3>;
-            layers = <1 2>;
+            layers = <1>;
         };
 
         wsad_i {
             bindings = <&kp I>;
             key-positions = <33 2>;
-            layers = <1 2>;
+            layers = <1>;
         };
 
         wsad_o {
             bindings = <&kp O>;
             key-positions = <33 1>;
-            layers = <1 2>;
+            layers = <1>;
         };
 
         wsad_p {
             bindings = <&kp P>;
             key-positions = <33 0>;
-            layers = <1 2>;
+            layers = <1>;
         };
 
         wsad_h {
