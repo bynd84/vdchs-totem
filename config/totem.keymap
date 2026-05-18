@@ -100,7 +100,7 @@
            &kp TAB    &kp N1  &kp N2  &kp N3  &kp N4       &kp MINUS  &kp N7  &kp N8  &kp N9  &kp N0
            &kp LALT   &kp A   &kp W   &kp D   &kp F        &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp RALT
 &kp LSHFT  &kp LCTRL  &kp Q   &kp S   &kp E   &kp R        &kp BSLH   &kp N1  &kp N2  &kp N3  &kp RCTRL  &kp RSHFT
-                              &none   &none   &kp SPACE    &none      &none   &none
+                              &none   &mo 3   &kp SPACE    &none      &none   &none
             >;
         };
 
