@@ -136,7 +136,7 @@
             key-positions = <4 14>;
             layers = <1>;
         };
-
+/*
         wsad_9 {
             bindings = <&kp N9>;
             key-positions = <1 2>;
@@ -148,7 +148,7 @@
             key-positions = <3 2>;
             layers = <1>;
         };
-/*
+*/
         wsad_z {
             bindings = <&kp Z>;
             key-positions = <22 11>;
@@ -286,7 +286,7 @@
             key-positions = <33 22>;
             layers = <1>;
         };
-*/
+
         wsad_sk {
             bindings = <&kp SEMI>;
             key-positions = <33 13 24>;
