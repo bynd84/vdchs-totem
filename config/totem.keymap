@@ -396,6 +396,12 @@
             layers = <0>;
             timeout-ms = <45>;
         };
+
+        yo {
+            bindings = <&kp LS(NUMBER_1)>;
+            key-positions = <0 10>;
+            layers = <0>;
+        };
     };
 
     behaviors {
