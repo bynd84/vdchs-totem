@@ -130,7 +130,7 @@
         Mouse {
             bindings = <
        &none  &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &none                &none              &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &none
-       &none  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &msc SCRL_UP         &none              &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHTs   &none
+       &none  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &msc SCRL_UP         &none              &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT   &none
 &none  &none  &mkp RCLK           &mkp MCLK           &mkp LCLK          &msc SCRL_DOWN       &none              &mkp RCLK           &mkp MCLK           &mkp LCLK          &none  &none
                                   &none               &mmv MOVE_DOWN     &mmv MOVE_Y(1400)    &mmv MOVE_Y(1400)  &mmv MOVE_DOWN      &none
             >;
