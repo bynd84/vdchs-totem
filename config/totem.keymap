@@ -20,7 +20,7 @@ combos {
         compatible = "zmk,combos";
         timeout-ms = <60>;
         key-press-match-history-window = <60>;
-
+        global-quick-tap;
 
         layers_selector_L {
             bindings = <&sl 6>;
