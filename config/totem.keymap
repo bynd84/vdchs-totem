@@ -21,13 +21,15 @@
 
         layers_selector_L {
             bindings = <&sl 6>;
-            key-positions = <1 2 3>;
+            key-positions = <10 14>;
+
             //layers = <0 1 2 3 4 5>;
         };
 
         layers_selector_R {
             bindings = <&sl 6>;
-            key-positions = <6 7 8>;
+            key-positions = <15 19>;
+
             //layers = <0 1 2 3 4 5>;
         };
 
@@ -136,7 +138,8 @@
             key-positions = <4 14>;
             layers = <1>;
         };
-/*
+
+        /*
         wsad_9 {
             bindings = <&kp N9>;
             key-positions = <1 2>;
@@ -149,6 +152,7 @@
             layers = <1>;
         };
 */
+
         wsad_z {
             bindings = <&kp Z>;
             key-positions = <22 11>;
@@ -394,7 +398,6 @@
             layers = <0>;
             timeout-ms = <45>;
         };
-
     };
 
     behaviors {
