@@ -66,14 +66,6 @@
     };
 
     macros {
-        arrowfy: arrowfy {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp GT>;
-            label = "ARROWFY";
-            wait-ms = <30>;
-            tap-ms = <30>;
-        };
     };
 
     keymap {
