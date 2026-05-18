@@ -105,16 +105,16 @@
                  &kp INS        &kp HOME        &kp BSPC      &kp END          &kp PG_UP        &kp PG_UP  &kp HOME        &kp BACKSPACE   &kp END          &kp INS
                  &kp RIGHT_ALT  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp PG_DN  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp RALT
 &kp RIGHT_SHIFT  &kp RCTRL      &kp ESC         &kp DOWN      &kp ENTER        &kp DEL          &kp DEL    &kp ENTER       &kp DOWN_ARROW  &kp ESC          &kp RCTRL  &kp RSHFT
-                                                &none         &none            &none            &none      &none           &none
+                                                &mo 3         &none            &mo 4            &mo 4      &none           &mo 3
             >;
         };
 
         Numpad {
             bindings = <
-                 &kp RGUI         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_N0     &kp KP_N0   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RGUI
-                 &kp SCROLLLOCK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT    &kp KP_DOT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SCROLLLOCK
-&kp PRINTSCREEN  &kp PAUSE_BREAK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PAUSE_BREAK  &kp PRINTSCREEN
-                                                   &none            &none            &none         &none       &none            &none
+          &kp PRINTSCREEN  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_N0     &kp KP_N0   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PRINTSCREEN
+          &kp SCROLLLOCK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT    &kp KP_DOT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SCROLLLOCK
+&kp CAPS  &kp PAUSE_BREAK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PAUSE_BREAK  &kp CLCK
+                                            &none            &none            &none         &none       &none            &none
             >;
         };
 
@@ -122,15 +122,15 @@
             bindings = <
           &kp LGUI           &kp F7  &kp F8  &kp F9  &kp F10    &kp F10  &kp F7  &kp F8  &kp F9  &kp LGUI
           &kp C_VOLUME_UP    &kp F4  &kp F5  &kp F6  &kp F11    &kp F11  &kp F4  &kp F5  &kp F6  &kp C_VOLUME_UP
-&kp CAPS  &kp C_VOLUME_DOWN  &kp F1  &kp F2  &kp F3  &kp F12    &kp F12  &kp F1  &kp F2  &kp F3  &kp C_VOLUME_DOWN  &kp CAPS
-                                     &trans  &trans  &trans     &trans   &trans  &trans
+&kp RGUI  &kp C_VOLUME_DOWN  &kp F1  &kp F2  &kp F3  &kp F12    &kp F12  &kp F1  &kp F2  &kp F3  &kp C_VOLUME_DOWN  &kp RGUI
+                                     &none   &none   &none      &none    &none   &none
             >;
         };
 
         Mouse {
             bindings = <
        &none  &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &none                &none              &mmv MOVE_X(-1400)  &mmv MOVE_Y(-1400)  &mmv MOVE_X(1400)  &none
-       &none  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &msc SCRL_UP         &none              &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT   &none
+       &none  &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &msc SCRL_UP         &none              &mmv MOVE_LEFT      &mmv MOVE_UP        &mmv MOVE_RIGHT    &none
 &none  &none  &mkp RCLK           &mkp MCLK           &mkp LCLK          &msc SCRL_DOWN       &none              &mkp RCLK           &mkp MCLK           &mkp LCLK          &none  &none
                                   &none               &mmv MOVE_DOWN     &mmv MOVE_Y(1400)    &mmv MOVE_Y(1400)  &mmv MOVE_DOWN      &none
             >;
