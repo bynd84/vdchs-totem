@@ -111,7 +111,213 @@
             layers = <0>;
         };
 
-        //-----------------------------------
+        //wsad macroses-----------------------------------
+        wsad_5 {
+            bindings = <&kp N5>;
+            key-positions = <1 11>;
+            layers = <1>;
+            timeout-ms = <15>;
+        };
+
+        wsad_6 {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <12 2>;
+            layers = <1>;
+            timeout-ms = <15>;
+        };
+
+        wsad_7 {
+            bindings = <&kp N7>;
+            key-positions = <3 13>;
+            layers = <1>;
+            timeout-ms = <15>;
+        };
+
+        wsad_8 {
+            bindings = <&kp N8>;
+            key-positions = <4 14>;
+            layers = <1>;
+            timeout-ms = <15>;
+        };
+
+        wsad_9 {
+            bindings = <&kp N9>;
+            key-positions = <1 2>;
+            layers = <1>;
+            timeout-ms = <50>;
+        };
+
+        wsad_0 {
+            bindings = <&kp N0>;
+            key-positions = <3 2>;
+            layers = <1>;
+            timeout-ms = <50>;
+        };
+
+        wsad_z {
+            bindings = <&kp Z>;
+            key-positions = <22 11>;
+            layers = <1>;
+            timeout-ms = <15>;
+        };
+
+        wsad_x {
+            bindings = <&kp X>;
+            key-positions = <23 12>;
+            layers = <1>;
+            timeout-ms = <15>;
+        };
+
+        wsad_c {
+            bindings = <&kp C>;
+            key-positions = <24 13>;
+            layers = <1>;
+            timeout-ms = <15>;
+        };
+
+        wsad_v {
+            bindings = <&kp V>;
+            key-positions = <14 25>;
+            layers = <1>;
+            timeout-ms = <15>;
+        };
+
+        wsad_t {
+            bindings = <&kp T>;
+            key-positions = <22 23>;
+            layers = <1>;
+            timeout-ms = <50>;
+        };
+
+        wsad_g {
+            bindings = <&kp G>;
+            key-positions = <23 24>;
+            layers = <1>;
+            timeout-ms = <50>;
+        };
+
+        wsad_b {
+            bindings = <&kp B>;
+            key-positions = <24 25>;
+            layers = <1>;
+            timeout-ms = <15>;
+        };
+
+        wsad_min {
+            bindings = <&kp MINUS>;
+            key-positions = <33 12 2>;
+            layers = <1>;
+        };
+
+        wsad_equ {
+            bindings = <&kp EQUAL>;
+            key-positions = <33 3 13>;
+            layers = <1>;
+        };
+
+        wsad_grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 1>;
+            layers = <1>;
+            timeout-ms = <50>;
+        };
+
+        wsad_y {
+            bindings = <&kp Y>;
+            key-positions = <4 33>;
+            layers = <1>;
+        };
+
+        wsad_u {
+            bindings = <&kp U>;
+            key-positions = <33 3>;
+            layers = <1>;
+        };
+
+        wsad_i {
+            bindings = <&kp I>;
+            key-positions = <33 2>;
+            layers = <1>;
+        };
+
+        wsad_o {
+            bindings = <&kp O>;
+            key-positions = <33 1>;
+            layers = <1>;
+        };
+
+        wsad_p {
+            bindings = <&kp P>;
+            key-positions = <33 0>;
+            layers = <1>;
+        };
+
+        wsad_h {
+            bindings = <&kp H>;
+            key-positions = <33 14>;
+            layers = <1>;
+        };
+
+        wsad_j {
+            bindings = <&kp J>;
+            key-positions = <33 13>;
+            layers = <1>;
+        };
+
+        wsad_k {
+            bindings = <&kp K>;
+            key-positions = <33 12>;
+            layers = <1>;
+        };
+
+        wsad_l_key {
+            bindings = <&kp L>;
+            key-positions = <33 11>;
+            layers = <1>;
+        };
+
+        wsad_n {
+            bindings = <&kp N>;
+            key-positions = <33 25>;
+            layers = <1>;
+        };
+
+        wsad_m {
+            bindings = <&kp M>;
+            key-positions = <33 24>;
+            layers = <1>;
+        };
+
+        wsad_comma {
+            bindings = <&kp COMMA>;
+            key-positions = <33 23>;
+            layers = <1>;
+        };
+
+        wsad_period {
+            bindings = <&kp PERIOD>;
+            key-positions = <33 22>;
+            layers = <1>;
+        };
+
+        wsad_sk {
+            bindings = <&kp SEMI>;
+            key-positions = <33 13 24>;
+            layers = <1>;
+        };
+
+        wsad_slash {
+            bindings = <&kp SLASH>;
+            key-positions = <33 14 25>;
+            layers = <1>;
+        };
+
+        wsad_bslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <33 14 4>;
+            layers = <1>;
+        };
+
     };
 
     behaviors {
