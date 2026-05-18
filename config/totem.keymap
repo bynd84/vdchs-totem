@@ -292,7 +292,7 @@
             key-positions = <33 22>;
             layers = <1>;
         };
-
+*/
         wsad_sk {
             bindings = <&kp SEMI>;
             key-positions = <33 13 24>;
@@ -400,7 +400,7 @@
             layers = <0>;
             timeout-ms = <45>;
         };
-*/
+
     };
 
     behaviors {
