@@ -94,19 +94,19 @@
         };
 
         qwerty_quote {
-            bindings = <&kp LS(N0)>;
+            bindings = <&kp SEMICOLON>;
             key-positions = <26 15>;
             layers = <0>;
         };
 
         qwerty_br_L {
-            bindings = <&kp LS(N0)>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <27 16>;
             layers = <0>;
         };
 
         qwerty_br_R {
-            bindings = <&kp LS(N0)>;
+            bindings = <&kp RIGHT_BRACKET>;
             key-positions = <28 17>;
             layers = <0>;
         };
