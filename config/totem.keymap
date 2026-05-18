@@ -22,17 +22,17 @@
         layers_selector_L {
             bindings = <&sl 6>;
             key-positions = <1 2 3>;
-            layers = <0 1 2 3 4 5>;
+            //layers = <0 1 2 3 4 5>;
             timeout-ms = <100>;
         };
 
         layers_selector_R {
             bindings = <&sl 6>;
             key-positions = <6 7 8>;
-            layers = <0 1 2 3 4 5>;
+            //layers = <0 1 2 3 4 5>;
             timeout-ms = <100>;
         };
-
+/*
         //qwerty macroses------------------------------------------------
 
         shift1 {
@@ -410,6 +410,7 @@
             layers = <0>;
             timeout-ms = <45>;
         };
+*/
     };
 
     behaviors {
