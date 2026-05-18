@@ -392,6 +392,22 @@
             key-positions = <28 17>;
             layers = <3>;
         };
+
+        //other macroses------------------------------------------------
+
+        wsad_cpgup {
+            bindings = <&kp LC(PG_UP)>;
+            key-positions = <32 12>;
+            layers = <0>;
+            timeout-ms = <45>;
+        };
+
+        wsad_cpgdn {
+            bindings = <&kp LC(PAGE_DOWN)>;
+            key-positions = <32 23>;
+            layers = <0>;
+            timeout-ms = <45>;
+        };
     };
 
     behaviors {
