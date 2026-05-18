@@ -139,7 +139,7 @@
             layers = <1>;
         };
 
-        /*
+
         wsad_9 {
             bindings = <&kp N9>;
             key-positions = <1 2>;
@@ -151,7 +151,7 @@
             key-positions = <3 2>;
             layers = <1>;
         };
-*/
+
 
         wsad_z {
             bindings = <&kp Z>;
@@ -470,9 +470,9 @@
 
         Navigation {
             bindings = <
-                 &kp INS        &kp HOME        &kp BSPC      &kp END          &kp PG_UP        &kp PG_UP  &kp HOME        &kp BACKSPACE   &kp END          &kp INS
-                 &kp RIGHT_ALT  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp PG_DN  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp RALT
-&kp RIGHT_SHIFT  &kp RCTRL      &kp ESC         &kp DOWN      &kp ENTER        &kp DEL          &kp DEL    &kp ENTER       &kp DOWN_ARROW  &kp ESC          &kp RCTRL  &kp RSHFT
+                 &kp INS        &kp HOME        &kp BSPC      &kp END          &kp DEL        &kp DEL  &kp HOME        &kp BACKSPACE   &kp END          &kp INS
+                 &kp RIGHT_ALT  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP    &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp RALT
+&kp RIGHT_SHIFT  &kp RCTRL      &kp ESC         &kp DOWN      &kp ENTER        &kp PAGE_DOWN          &kp PG_DN    &kp ENTER       &kp DOWN_ARROW  &kp ESC          &kp RCTRL  &kp RSHFT
                                                 &mo 3         &none            &mo 4            &mo 4      &none           &mo 3
             >;
         };
