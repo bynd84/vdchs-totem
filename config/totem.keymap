@@ -104,14 +104,17 @@
             >;
         };
 
-        layer_3 {
+        wsad_nav {
+            label = "wsad_nav";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+                 &kp TAB        &kp HOME        &kp BSPC      &kp END          &kp PG_UP        &trans  &trans  &trans  &trans  &trans
+                 &kp RIGHT_ALT  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans  &trans  &trans  &trans  &trans
+&kp RIGHT_SHIFT  &kp RCTRL      &kp ESC         &kp DOWN      &kp ENTER        &kp DEL          &trans  &trans  &trans  &trans  &trans  &trans
+                                                &mo 5         &mo 5            &kp INS          &trans  &trans  &trans
             >;
         };
+
+
     };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
