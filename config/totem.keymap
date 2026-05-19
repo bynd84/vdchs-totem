@@ -292,7 +292,7 @@
             key-positions = <22 34>;
             layers = <1>;
         };
-
+/*
         wsad_sk {
             bindings = <&kp SEMI>;
             key-positions = <13 24 34>;
@@ -310,7 +310,7 @@
             key-positions = <14 4 34>;
             layers = <1>;
         };
-
+*/
         //nump macroses------------------------------------------------
 
         numpL_div {
