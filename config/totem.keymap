@@ -196,7 +196,7 @@
             key-positions = <24 25>;
             layers = <1>;
         };
-
+/*
         wsad_min {
             bindings = <&kp MINUS>;
             key-positions = <12 2 34>;
@@ -208,7 +208,7 @@
             key-positions = <3 13 34>;
             layers = <1 2>;
         };
-
+*/
         wsad_grave {
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
