@@ -18,23 +18,23 @@
 / {
     combos {
         compatible = "zmk,combos";
-        timeout-ms = <60>;
-        key-press-match-history-window = <60>;
-        global-quick-tap;
-        combo-ignore-modifiers;
+      //  timeout-ms = <70>;
+       // key-press-match-history-window = <60>;
+      //  global-quick-tap;
+      //  combo-ignore-modifiers;
 
         layers_selector_L {
             bindings = <&sl 6>;
             key-positions = <10 14>;
 
-            //layers = <0 1 2 3 4 5>;
+            layers = <0 1 2 3 4 5>;
         };
 
         layers_selector_R {
             bindings = <&sl 6>;
             key-positions = <15 19>;
 
-            //layers = <0 1 2 3 4 5>;
+            layers = <0 1 2 3 4 5>;
         };
 
         //qwerty macroses------------------------------------------------
