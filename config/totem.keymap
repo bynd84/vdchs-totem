@@ -18,8 +18,7 @@
 / {
     combos {
         compatible = "zmk,combos";
-
-        //  timeout-ms = <70>;
+            timeout-ms = <80>;
         // key-press-match-history-window = <60>;
         //  global-quick-tap;
         //  combo-ignore-modifiers;
