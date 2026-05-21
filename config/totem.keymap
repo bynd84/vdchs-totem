@@ -57,56 +57,56 @@
             layers = <1>;
         };
 
-        qwerty_shift2 {
-            bindings = <&kp LS(NUMBER_2)>;
+        qwerty_2 {
+            bindings = <&kp NUMBER_2)>;
             key-positions = <1 11>;
             layers = <1>;
         };
 
-        qwerty_shift3 {
-            bindings = <&kp LS(NUMBER_3)>;
+        qwerty_3 {
+            bindings = <&kp NUMBER_3)>;
             key-positions = <2 12>;
             layers = <1>;
         };
 
-        qwerty_shift4 {
-            bindings = <&kp LS(NUMBER_4)>;
+        qwerty_4 {
+            bindings = <&kp NUMBER_4)>;
             key-positions = <3 13>;
             layers = <1>;
         };
 
-        qwerty_shift5 {
-            bindings = <&kp LS(N5)>;
+        qwerty_5 {
+            bindings = <&kp NUMBER_5)>;
             key-positions = <4 14>;
             layers = <1>;
         };
 
-        qwerty_shift6 {
-            bindings = <&kp LS(NUMBER_6)>;
+        qwerty_6 {
+            bindings = <&kp NUMBER_6)>;
             key-positions = <5 15>;
             layers = <1>;
         };
 
-        qwerty_shift7 {
-            bindings = <&kp LS(N7)>;
+        qwerty_7 {
+            bindings = <&kp NUMBER_7)>;
             key-positions = <6 16>;
             layers = <1>;
         };
 
-        qwerty_shift8 {
-            bindings = <&kp LS(N8)>;
+        qwerty_8 {
+            bindings = <&kp NUMBER_8)>;
             key-positions = <7 17>;
             layers = <1>;
         };
 
-        qwerty_shift9 {
-            bindings = <&kp LS(N9)>;
+        qwerty_9 {
+            bindings = <&kp NUMBER_9)>;
             key-positions = <8 18>;
             layers = <1>;
         };
 
-        qwerty_shift0 {
-            bindings = <&kp LS(N0)>;
+        qwerty_0 {
+            bindings = <&kp NUMBER_0)>;
             key-positions = <29 18>;
             layers = <1>;
         };
