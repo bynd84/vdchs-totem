@@ -338,7 +338,7 @@
 
         numpL_nlock {
             bindings = <&kp KP_NUMLOCK>;
-            key-positions = <22 11>;
+            key-positions = <0 1>;
             layers = <4>;
         };
 
@@ -374,7 +374,7 @@
 
         numpR_nlock {
             bindings = <&kp KP_NUMLOCK>;
-            key-positions = <29 18>;
+            key-positions = <9 8>;
             layers = <4>;
         };
 
