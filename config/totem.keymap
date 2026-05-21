@@ -19,6 +19,7 @@
     combos {
         compatible = "zmk,combos";
             timeout-ms = <80>;
+            require-prior-idle-ms = <0>;
         // key-press-match-history-window = <60>;
         //  global-quick-tap;
         //  combo-ignore-modifiers;
