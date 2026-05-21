@@ -111,6 +111,12 @@
             layers = <1>;
         };
 
+        qwerty_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <14 25>;
+            layers = <1>;
+        };
+
         qwerty_equ {
             bindings = <&kp EQUAL>;
             key-positions = <26 15>;
@@ -130,7 +136,7 @@
         };
 
         //wsad macroses-----------------------------------
-        /*
+
         wsad_5 {
             bindings = <&kp N5>;
             key-positions = <1 11>;
@@ -208,7 +214,7 @@
             key-positions = <24 25>;
             layers = <1>;
         };
-
+/*
         wsad_min {
             bindings = <&kp MINUS>;
             key-positions = <12 2 34>;
@@ -397,11 +403,6 @@
             layers = <4>;
         };
 
-        qwerty_minus {
-            bindings = <&kp MINUS>;
-            key-positions = <14 25>;
-            layers = <1>;
-        };
 
         //other macroses------------------------------------------------
     };
