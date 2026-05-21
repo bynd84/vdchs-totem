@@ -45,6 +45,12 @@
             layers = <1>;
         };
 
+        qwerty_bslsh {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <9 8>;
+            layers = <1>;
+        };
+
         qwerty_shift1 {
             bindings = <&kp LS(NUMBER_1)>;
             key-positions = <22 11>;
@@ -389,12 +395,6 @@
             bindings = <&kp KP_ENTER>;
             key-positions = <28 17>;
             layers = <4>;
-        };
-
-        qwerty_bslsh {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <9 8>;
-            layers = <1>;
         };
 
         //other macroses------------------------------------------------
