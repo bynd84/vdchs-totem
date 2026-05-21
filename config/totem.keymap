@@ -18,8 +18,9 @@
 / {
     combos {
         compatible = "zmk,combos";
-            timeout-ms = <80>;
-            require-prior-idle-ms = <0>;
+        timeout-ms = <80>;
+        require-prior-idle-ms = <0>;
+
         // key-press-match-history-window = <60>;
         //  global-quick-tap;
         //  combo-ignore-modifiers;
@@ -39,8 +40,8 @@
         //qwerty macroses------------------------------------------------
 
         qwerty_grave {
-            bindings = <&kp LS(NUMBER_1)>;
-            key-positions = <21 10>;
+            bindings = <&kp NUMBER_1>;
+            key-positions = <1 0>;
             layers = <1>;
         };
 
@@ -388,6 +389,12 @@
             bindings = <&kp KP_ENTER>;
             key-positions = <28 17>;
             layers = <4>;
+        };
+
+        qwerty_bslsh {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <9 8>;
+            layers = <1>;
         };
 
         //other macroses------------------------------------------------
