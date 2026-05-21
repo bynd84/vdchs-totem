@@ -18,23 +18,22 @@
 / {
     combos {
         compatible = "zmk,combos";
-      //  timeout-ms = <70>;
-       // key-press-match-history-window = <60>;
-      //  global-quick-tap;
-      //  combo-ignore-modifiers;
+
+        //  timeout-ms = <70>;
+        // key-press-match-history-window = <60>;
+        //  global-quick-tap;
+        //  combo-ignore-modifiers;
 
         layers_selector_L {
             bindings = <&sl 6>;
             key-positions = <10 14>;
-
-            layers = <0 1 2 3 4 5>;
+            layers = <1 0 2 4 3 5>;
         };
 
         layers_selector_R {
             bindings = <&sl 6>;
             key-positions = <15 19>;
-
-            layers = <0 1 2 3 4 5>;
+            layers = <1 0 2 4 3 5>;
         };
 
         //qwerty macroses------------------------------------------------
@@ -42,83 +41,83 @@
         qwerty_shift1 {
             bindings = <&kp LS(NUMBER_1)>;
             key-positions = <22 11>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_shift2 {
             bindings = <&kp LS(NUMBER_2)>;
             key-positions = <1 11>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_shift3 {
             bindings = <&kp LS(NUMBER_3)>;
             key-positions = <2 12>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_shift4 {
             bindings = <&kp LS(NUMBER_4)>;
             key-positions = <3 13>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_shift5 {
             bindings = <&kp LS(N5)>;
             key-positions = <4 14>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_shift6 {
             bindings = <&kp LS(NUMBER_6)>;
             key-positions = <5 15>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_shift7 {
             bindings = <&kp LS(N7)>;
             key-positions = <6 16>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_shift8 {
             bindings = <&kp LS(N8)>;
             key-positions = <7 17>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_shift9 {
             bindings = <&kp LS(N9)>;
             key-positions = <8 18>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_shift0 {
             bindings = <&kp LS(N0)>;
             key-positions = <29 18>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_quote {
             bindings = <&kp SEMICOLON>;
             key-positions = <26 15>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_br_L {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <27 16>;
-            layers = <0>;
+            layers = <1>;
         };
 
         qwerty_br_R {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <28 17>;
-            layers = <0>;
+            layers = <1>;
         };
 
         //wsad macroses-----------------------------------
-/*
+        /*
         wsad_5 {
             bindings = <&kp N5>;
             key-positions = <1 11>;
@@ -316,73 +315,73 @@
         numpL_div {
             bindings = <&kp KP_DIVIDE>;
             key-positions = <1 11>;
-            layers = <3>;
+            layers = <4>;
         };
 
         numpL_mult {
             bindings = <&kp KP_MULTIPLY>;
             key-positions = <2 12>;
-            layers = <3>;
+            layers = <4>;
         };
 
         numpL_minus {
             bindings = <&kp KP_SUBTRACT>;
             key-positions = <3 13>;
-            layers = <3>;
+            layers = <4>;
         };
 
         numpL_plus {
             bindings = <&kp KP_PLUS>;
             key-positions = <13 24>;
-            layers = <3>;
+            layers = <4>;
         };
 
         numpL_nlock {
             bindings = <&kp KP_NUMLOCK>;
             key-positions = <22 11>;
-            layers = <3>;
+            layers = <4>;
         };
 
         numpL_ent {
             bindings = <&kp KP_ENTER>;
             key-positions = <23 12>;
-            layers = <3>;
+            layers = <4>;
         };
 
         numpR_div {
             bindings = <&kp KP_DIVIDE>;
             key-positions = <8 18>;
-            layers = <3>;
+            layers = <4>;
         };
 
         numpR_mult {
             bindings = <&kp KP_MULTIPLY>;
             key-positions = <7 17>;
-            layers = <3>;
+            layers = <4>;
         };
 
         numpR_minus {
             bindings = <&kp KP_SUBTRACT>;
             key-positions = <6 16>;
-            layers = <3>;
+            layers = <4>;
         };
 
         numpR_plus {
             bindings = <&kp KP_PLUS>;
             key-positions = <16 27>;
-            layers = <3>;
+            layers = <4>;
         };
 
         numpR_nlock {
             bindings = <&kp KP_NUMLOCK>;
             key-positions = <29 18>;
-            layers = <3>;
+            layers = <4>;
         };
 
         numpR_ent {
             bindings = <&kp KP_ENTER>;
             key-positions = <28 17>;
-            layers = <3>;
+            layers = <4>;
         };
 
         //other macroses------------------------------------------------
@@ -438,21 +437,21 @@
     keymap {
         compatible = "zmk,keymap";
 
-        qwerty {
-            bindings = <
-                &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y           &kp U      &kp I      &kp O    &kp P
-                &kp A  &kp S  &kp D  &kp F  &kp G        &kp H           &kp J      &kp K      &kp L    &kp SEMI
-&mt LALT GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N           &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_ALT BSLH
-                              &mo 3  &mo 2  &kp SPACE    &kp LEFT_SHIFT  &kp LCTRL  &mo 1
-            >;
-        };
-
         wsad {
             bindings = <
            &kp TAB    &kp N1  &kp N2  &kp N3  &kp N4       &kp N0     &kp N7  &kp N8  &kp N9  &kp BSLH
            &kp LALT   &kp A   &kp W   &kp D   &kp F        &kp MINUS  &kp N4  &kp N5  &kp N6  &kp RALT
 &kp LSHFT  &kp LCTRL  &kp Q   &kp S   &kp E   &kp R        &kp EQUAL  &kp N1  &kp N2  &kp N3  &kp RCTRL  &kp RSHFT
-                              &mo 3   &mo 2   &kp SPACE    &none      &none   &none
+                              &mo 4   &mo 2   &kp SPACE    &none      &none   &none
+            >;
+        };
+
+        qwerty {
+            bindings = <
+                &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y           &kp U      &kp I      &kp O    &kp P
+                &kp A  &kp S  &kp D  &kp F  &kp G        &kp H           &kp J      &kp K      &kp L    &kp SEMI
+&mt LALT GRAVE  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N           &kp M      &kp COMMA  &kp DOT  &kp FSLH  &mt RIGHT_ALT BSLH
+                              &mo 4  &mo 2  &kp SPACE    &kp LEFT_SHIFT  &kp LCTRL  &mo 0
             >;
         };
 
@@ -461,16 +460,7 @@
            &kp INS        &kp HOME        &kp BSPC      &kp END          &kp DEL          &kp DEL    &kp HOME        &kp BACKSPACE   &kp END          &kp INS
            &kp RIGHT_ALT  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PG_UP        &kp PG_UP  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp RALT
 &kp LSHFT  &kp RCTRL      &kp ESC         &kp DOWN      &kp ENTER        &kp PAGE_DOWN    &kp PG_DN  &kp ENTER       &kp DOWN_ARROW  &kp ESC          &kp RCTRL  &kp RSHFT
-                                          &mo 3         &none            &mo 4            &mo 4      &none           &mo 3
-            >;
-        };
-
-        Numpad {
-            bindings = <
-          &kp PRINTSCREEN  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_N0     &kp KP_N0   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PRINTSCREEN
-          &kp SCROLLLOCK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT    &kp KP_DOT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SCROLLLOCK
-&kp CAPS  &kp PAUSE_BREAK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PAUSE_BREAK  &kp CLCK
-                                            &none            &none            &none         &none       &none            &none
+                                          &mo 4         &none            &mo 3            &mo 3      &none           &mo 4
             >;
         };
 
@@ -480,6 +470,15 @@
           &kp C_VOLUME_UP    &kp F4  &kp F5  &kp F6  &kp F11    &kp F11  &kp F4  &kp F5  &kp F6  &kp C_VOLUME_UP
 &kp RGUI  &kp C_VOLUME_DOWN  &kp F1  &kp F2  &kp F3  &kp F12    &kp F12  &kp F1  &kp F2  &kp F3  &kp C_VOLUME_DOWN  &kp RGUI
                                      &none   &none   &none      &none    &none   &none
+            >;
+        };
+
+        Numpad {
+            bindings = <
+          &kp PRINTSCREEN  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_N0     &kp KP_N0   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PRINTSCREEN
+          &kp SCROLLLOCK   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DOT    &kp KP_DOT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SCROLLLOCK
+&kp CAPS  &kp PAUSE_BREAK  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none         &none       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PAUSE_BREAK  &kp CLCK
+                                            &none            &none            &none         &none       &none            &none
             >;
         };
 
@@ -494,9 +493,9 @@
 
         layers {
             bindings = <
-           &kp MINUS  &kp MINUS  &kp MINUS  &kp MINUS  &to 0        &to 0      &kp MINUS  &kp MINUS  &kp MINUS  &kp MINUS
-           &kp MINUS  &to 4      &to 5      &kp MINUS  &kp MINUS    &kp MINUS  &to 4      &to 5      &kp MINUS  &kp MINUS
-&kp MINUS  &kp MINUS  &to 1      &to 2      &to 3      &kp MINUS    &kp MINUS  &to 1      &to 2      &to 3      &kp MINUS  &kp MINUS
+           &kp MINUS  &kp MINUS  &kp MINUS  &kp MINUS  &to 1        &to 1      &kp MINUS  &kp MINUS  &kp MINUS  &kp MINUS
+           &kp MINUS  &to 3      &to 5      &kp MINUS  &kp MINUS    &kp MINUS  &to 3      &to 5      &kp MINUS  &kp MINUS
+&kp MINUS  &kp MINUS  &to 0      &to 2      &to 4      &kp MINUS    &kp MINUS  &to 0      &to 2      &to 4      &kp MINUS  &kp MINUS
                                  &kp MINUS  &kp MINUS  &kp MINUS    &kp MINUS  &kp MINUS  &kp MINUS
             >;
         };
