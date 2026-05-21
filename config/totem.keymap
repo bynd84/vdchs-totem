@@ -38,6 +38,12 @@
 
         //qwerty macroses------------------------------------------------
 
+        qwerty_grave {
+            bindings = <&kp LS(NUMBER_1)>;
+            key-positions = <21 10>;
+            layers = <1>;
+        };
+
         qwerty_shift1 {
             bindings = <&kp LS(NUMBER_1)>;
             key-positions = <22 11>;
