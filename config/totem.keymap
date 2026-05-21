@@ -215,7 +215,7 @@
             key-positions = <24 25>;
             layers = <0>;
         };
-
+/*
         wsad_min {
             bindings = <&kp MINUS>;
             key-positions = <12 2 34>;
@@ -227,7 +227,7 @@
             key-positions = <3 13 34>;
             layers = <0>;
         };
-
+*/
         wsad_grave {
             bindings = <&kp GRAVE>;
             key-positions = <0 1>;
@@ -311,7 +311,7 @@
             key-positions = <22 34>;
             layers = <0>;
         };
-
+/*
         wsad_sk {
             bindings = <&kp SEMI>;
             key-positions = <13 24 34>;
@@ -329,7 +329,7 @@
             key-positions = <14 4 34>;
             layers = <0>;
         };
-
+*/
         //nump macroses------------------------------------------------
 
         numpL_div {
