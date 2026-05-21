@@ -51,8 +51,8 @@
             layers = <1>;
         };
 
-        qwerty_shift1 {
-            bindings = <&kp LS(NUMBER_1)>;
+        qwerty_1 {
+            bindings = <&kp NUMBER_1>;
             key-positions = <22 11>;
             layers = <1>;
         };
